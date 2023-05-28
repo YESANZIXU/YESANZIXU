@@ -1,18 +1,5 @@
-document.write("Hello, world!");
-
 function sayHello(){
-  var response = prompt("What is your name?");
-  alert("Hello " + response + " , have a nice day!");
+  var response=prompt("你的名字");
+  alert("你好 ," + response + "！ 祝你天天开心！");
 }
-
-function add(a,b){
-  return a + b;
-}
-console.log(add(20,30));
-console.log(add(200,300));
-
-function showTopic(){
-  var x = document.getElementById('demo');
-  x.style.fontSize = "25px";
-  x.style.color = "red";
-}
+sayHello()

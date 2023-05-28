@@ -3,110 +3,66 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>梦中·回家的路</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+    <script src="javascript_副本.js">
+    </script>
   </head>
   <body>
-    <p class="h1">h1. Bootstrap heading</p>
-<p class="h2">h2. Bootstrap heading</p>
-<p class="h3">h3. Bootstrap heading</p>
-<p class="h4">h4. Bootstrap heading</p>
-<p class="h5">h5. Bootstrap heading</p>
-<p class="h6">h6. Bootstrap heading</p>
-<h2>h2. Bootstrap heading</h2>
-<h3>h3. Bootstrap heading</h3>
-<h4>h4. Bootstrap heading</h4>
-<h5>h5. Bootstrap heading</h5>
-<h6>h6. Bootstrap heading</h6>
-<blockquote class="blockquote">
-  <p>A well-known quote, contained in a blockquote element.</p>
-</blockquote>
-<figure>
-  <blockquote class="blockquote">
-    <p>A well-known quote, contained in a blockquote element.</p>
-  </blockquote>
-  <figcaption class="blockquote-footer">
-    Someone famous in <cite title="Source Title">Source Title</cite>
-  </figcaption>
-</figure>
-<h1 class="display-1">Display 1</h1>
-<h1 class="display-2">Display 2</h1>
-<h1 class="display-3">Display 3</h1>
-<h1 class="display-4">Display 4</h1>
-<h1 class="display-5">Display 5</h1>
-<h1 class="display-6">Display 6</h1>
-<h3>
-  Fancy display heading
-  <small class="text-muted">With faded secondary text</small>
-</h3>
-    <!-- 以下实例演示了创建相等宽度的列，Bootstrap 自动布局 -->
-    <div class="container-fluid">
-    <h1>Hello World!</h1>
-    <p>创建三个相等宽度的列! 尝试在 class="row" 的 div 中添加新的 class="col"  div，会显示三个等宽的列。</p>
-    <div class="row">
-    <div class="col" style="background-color:lavender;">.col</div>
-    <div class="col" style="background-color:orange;">.col</div>
-    <div class="col" style="background-color:lavender;">.col</div>
-   </div>
-   </div>
-   <!-- 以下实例演示了如何在平板及更大屏幕上创建等宽度的响应式列。在移动设备上，即屏幕宽度小于 576px 时，四个列将会上下堆叠排版 -->
-   <div class="container-fluid">
-    <h1>Hello World!</h1>
-    <p>重置浏览器大小查效果。</p>
-    <p> 在移动设备上，即屏幕宽度小于 576px 时，四个列将会上下堆叠排版。</p>
-    <div class="row">
-     <div class="col-sm-3" style="background-color:lavender;">.col-sm-3</div>
-     <div class="col-sm-3" style="background-color:lavenderblush;">.col-sm-3</div>
-     <div class="col-sm-3" style="background-color:lavender;">.col-sm-3</div>
-     <div class="col-sm-3" style="background-color:lavenderblush;">.col-sm-3</div>
-            </div>
-          </div>
-          <!-- 以下实例演示了在平板及更大屏幕上创建不等宽度的响应式列。在移动设备上，即屏幕宽度小于 576px 时，两个列将会上下堆叠排版: -->
-          <div class="container-fluid">
-           <h1>Hello World!</h1>
-           <p>重置浏览器大小查效果。</p>
-            <p>在移动设备上，即屏幕宽度小于 576px 时，两个列将会上下堆叠排版。</p>
-            <div class="row">    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
-              <div class="col-sm-8" style="background-color:lavenderblush;">.col-sm-8</div>
-             </div>
-           </div>
-           <!-- 以下实例演示了在桌面设备的显示器上两个列的宽度各占 50%，如果在平板端则左边的宽度为 25%，右边的宽度为 75%, 在移动手机等小型设备上会堆叠显示。 -->
-           <div class="container-fluid">
-             <h1>平板与桌面的网格布局</h1>
-              <p>以下实例演示了在桌面设备的显示器上两个列的宽度各占 50%，如果在平板端则左边的宽度为 25%，右边的宽度为 75%, 在移动手机等小型设备上会堆叠显示。</p>
-               <p>重置浏览器窗口大小，查看效果。</p>
-                <div class="container-fluid">
-                  <div class="row">
-                        <div class="col-sm-3 col-md-6 bg-success">AD</div>
-                          <div class="col-sm-9 col-md-6 bg-warning">广告学院</div>
-                         </div>
-                        </div>
-                      </div>
-                      <!-- 以下实例在平板、桌面、大桌面显示器、超大桌面显示器的宽度比例为分别为：25%/75%、50%/50%、33.33%/66.67%、16.67/83.33%, 在移动手机等小型设备上会堆叠显示。 -->
-                      <div class="container-fluid">
-                         <h1>平板、桌面、大桌面显示器、超大桌面显示器</h1>
-                          <p>以下实例在平板、桌面、大桌面显示器、超大桌面显示器的宽度比例为分别为：25%/75%、50%/50%、33.33%/66.67%、16.67/83.33%, 在移动手机等小型设备上会堆叠显示。</p>
-                           <p>重置浏览器窗口大小，查看效果。</p>  <div class="container-fluid">
-                               <div class="row">
-                                   <div class="col-sm-3 col-md-6 col-lg-4 col-xl-2 bg-success">AD</div>
-                                     <div class="col-sm-9 col-md-6 col-lg-8 col-xl-10 bg-warning">广告学院</div>
-                                    </div>
-                                   </div>
-                                 </div>
-                                 <!--   是否不希望在小屏幕设备上所有列都堆叠在一起？那就使用针对超小屏幕、小屏幕和中等屏幕设备所定义的类，来创建更加动态和强大的布局吧。 -->
-                                   <h1>小屏幕设备不堆叠</h1>
-                                   <div class="container">
-                                    <div class="row">
-                                         <div class="col-xs-12 col-sm-6 col-md-8 bg-success">.col-xs-12 .col-sm-6 .col-md-8</div>
-                                              <div class="col-xs-6 col-sm-12 col-md-4 bg-warning">.col-xs-6 .col-sm-12 .col-md-4</div>
-                                             </div>
-                                               <div class="row">
-                                                   <div class="col-xs-6 col-sm-4 bg-success">.col-xs-6 .col-sm-4</div>
-                                                     <div class="col-xs-6 col-sm-4 bg-primary">.col-xs-6 .col-sm-4</div>
-                                                      <div class="col-xs-6 col-sm-4 bg-success">.col-xs-6 .col-sm-4</div>
-                                                     </div>
-                                                   </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/mhDoLbDldZc3qpsJHpLogda//BVZbgYuw6kof4u2FrCedxOtgRZDTHgHUhOCVim" crossorigin="anonymous"></script>
+    <!--Breadcrumb-->
+    <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
+<!--lunbotu-->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="日落.jpg" class="d-block w-100" alt="tttt">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="寨上.jpg" class="d-block w-100" alt="bxxxxx">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="清晨.jpg" class="d-block w-100" alt="bxxxx">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
